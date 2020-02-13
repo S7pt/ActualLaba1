@@ -14,6 +14,7 @@ namespace ConsoleApp2
             Console.WriteLine("Type seconds to convert");
             string seconds = Console.ReadLine();
             int result = Counter(int.Parse(seconds));
+            Console.WriteLine(result + " minutes have passed");
         }
     }
 }
